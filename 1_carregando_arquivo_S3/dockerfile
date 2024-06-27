@@ -1,0 +1,12 @@
+FROM python:3.10
+
+WORKDIR /app/
+
+COPY carregar_arquivo.py /app/
+COPY movies.csv /app/
+COPY series.csv /app/
+
+RUN pip install boto3
+RUN pip install datetime 
+
+CMD [ "python","carregar_arquivo.py" ]
