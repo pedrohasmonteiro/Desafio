@@ -3,5 +3,5 @@ Análise exploratória sobre receita das maiores bilheterias de terror e mistér
 O desafio é Dividido em 5 partes e foi realizado com serviços da AWS:
 1. Ingestão csv na camada Raw
 2. Dados Baixados da API utilizando uma função no AWS lambda
-3. Precessamento da camada Trusted e modelagem dos dados
-4. Dashboard
+3. Precessamento da camada Trusted e modelagem dos dados urilizando Jobs no AWS Glue
+4. Dashboard feito no Amazon Quicksight
